@@ -12,7 +12,7 @@
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgLogo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="35sp"
@@ -22,6 +22,7 @@
         android:layout_marginEnd="15sp"
         android:layout_marginRight="15sp"
         android:layout_marginBottom="25sp"
+        android:contentDescription="@string/logomarca"
         android:padding="5sp"
         android:paddingStart="5sp"
         android:paddingLeft="5sp"
@@ -35,10 +36,14 @@
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:freezesText="false"
         android:gravity="center"
         android:keepScreenOn="true"
+        android:rotation="0"
         android:rotationX="39"
+        android:scaleX="1"
         android:text="@string/dummy_content"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="34sp"
         android:textStyle="bold"
