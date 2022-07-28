@@ -3,4 +3,8 @@
     <string name="dummy_button">...:: Click para Entrar ::....</string>
     <string name="dummy_content">Sistema App Cozinha</string>
     <string name="logomarca">logoMArca</string>
+    <string name="selecinar_o_icone_para_cada_funcionalidade_por_exemplo_voc_vai_realizar_a_inser_o_de_quantas_bolinhas_foram_feitas">\nBem Vindo ao Sistema! \nOnde você deve selecinar um dos botoês abaixo para entrar em cada funcionalidade! \nPor exemplo. \nVocê vai realizar a inserção de quantas bolinhas foram feitas no dia, então você devel selecionar o botão \n"BOLINHAS".</string>
+    <string name="bolinhas">Bolinhas</string>
+    <string name="escala_de_hor_rio">Escala de Horário</string>
+    <string name="pessagem">Pessagem</string>
 </resources>

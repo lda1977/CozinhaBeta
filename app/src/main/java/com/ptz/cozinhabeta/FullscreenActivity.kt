@@ -2,6 +2,7 @@ package com.ptz.cozinhabeta
 
 import android.support.v7.app.AppCompatActivity
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
@@ -9,6 +10,7 @@ import android.os.Looper
 import android.view.MotionEvent
 import android.view.View
 import android.view.WindowInsets
+import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.ptz.cozinhabeta.databinding.ActivityFullscreenBinding
@@ -82,6 +84,17 @@ class FullscreenActivity : AppCompatActivity() {
         // Set up the user interaction to manually show or hide the system UI.
         fullscreenContent = binding.fullscreenContent
         fullscreenContent.setOnClickListener { toggle() }
+
+
+        // Button Entra
+        ///////////////////
+        val AcessarSistema = findViewById<Button>(R.id.dummy_button) as Button
+
+        AcessarSistema.setOnClickListener {
+            val fscintent = Intent(this, MainActivitySistema::class.java).apply {
+            }
+            startActivity(fscintent)
+        }
 
         fullscreenContentControls = binding.fullscreenContentControls
 
