@@ -10,8 +10,6 @@ class MainActivitySistema : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_sistema)
 
-
-
         // Button Inserir
         ///////////////////
         val AcessarSistemaInserirbolihas = findViewById<Button>(R.id.btnBolinhas) as Button
@@ -22,8 +20,6 @@ class MainActivitySistema : AppCompatActivity() {
             startActivity(bolinhasintent)
         }
 
-
-
         // Button Pessagem
         ///////////////////
         val Pessagem = findViewById<Button>(R.id.btnPessagem) as Button
@@ -33,7 +29,6 @@ class MainActivitySistema : AppCompatActivity() {
             }
             startActivity(AcessarPessagem)
         }
-
 
         // Button Escala Horário
         ///////////////////

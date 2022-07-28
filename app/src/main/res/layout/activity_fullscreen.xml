@@ -37,15 +37,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:freezesText="false"
-        android:gravity="center"
+        android:gravity="center|top"
         android:keepScreenOn="true"
         android:rotation="0"
-        android:rotationX="39"
+        android:rotationX="29"
         android:scaleX="1"
         android:text="@string/dummy_content"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="96sp"
         android:textStyle="bold"
         tools:ignore="TextContrastCheck" />
 

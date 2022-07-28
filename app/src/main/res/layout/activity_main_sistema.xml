@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/onchip001"
     tools:context=".MainActivitySistema">
 
     <android.support.v4.widget.NestedScrollView
@@ -14,12 +15,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/txtHelps"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginStart="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="10sp"
+                android:marqueeRepeatLimit="marquee_forever"
                 android:text="@string/selecinar_o_icone_para_cada_funcionalidade_por_exemplo_voc_vai_realizar_a_inser_o_de_quantas_bolinhas_foram_feitas"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -29,7 +38,8 @@
                 android:id="@+id/btnBolinhas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bolinhas" />
+                android:text="@string/bolinhas"
+                tools:ignore="TextContrastCheck" />
 
             <android.support.constraint.Guideline
                 android:id="@+id/guideline"
@@ -41,7 +51,8 @@
                 android:id="@+id/btnPessagem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/pessagem" />
+                android:text="@string/pessagem"
+                tools:ignore="TextContrastCheck" />
 
             <android.support.constraint.Guideline
                 android:id="@+id/guideline2"
