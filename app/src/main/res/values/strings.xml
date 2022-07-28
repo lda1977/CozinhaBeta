@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CozinhaBeta</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name">Cozinha \nBeta 4.0</string>
+    <string name="dummy_button">...:: Click para Entrar ::....</string>
+    <string name="dummy_content">Sistema App Cozinha</string>
 </resources>
